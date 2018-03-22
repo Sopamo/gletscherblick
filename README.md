@@ -1,6 +1,6 @@
 # gletscherblick
 
-> Gletscherblick
+> Nuxt.js project
 
 ## Build Setup
 

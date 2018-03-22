@@ -1,58 +1,52 @@
 <template>
-  <section class="container">
-    <div>
-      <logo/>
-      <h1 class="title">
-        gletscherblick
+<div>
+  <section class="container max-width">
+    <div class="main-image-wrapper">
+      <img src="../assets/frontpage.jpg" class="main-image">
+      <h1 class="intro-text">
+        Herzlich Willkommen<br>
+        <br>
+        <small>bei der Familienpension Gletscherblick<br>
+        in Heiligenblut</small>
       </h1>
-      <h2 class="subtitle">
-        Gletscherblick
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-      </div>
     </div>
   </section>
+  <section class="container large-up">
+    <img src="../assets/blick-nach-heiligenblut.jpg" width="500" alt="Blick von der Sonnenterrasse nach Heiligenblut" class="albumify float-left">
+    Heiligenblut, mitten im Nationalpark Hohe Tauern, liegt Ihnen zu Füßen, während Sie von der Sonnenterrasse unserer Pension aus das Glocknermassiv bewundern. <br>
+    <br>
+    Unser Familienbetrieb liegt knapp fünf Gehminuten vom Ortszentrum entfernt auf einem kleinen Hügel ohne öffentlichen Straßenverkehr.
+  </section>
+</div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  }
 }
 </script>
 
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+<style scoped lang="scss">
+.main-image-wrapper {
+  width: 100%;
+  height: 700px;
+  max-height: 90vh;
+  overflow: hidden;
+  position: relative;
 
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
+  h1 {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: white;
+    font-size: 56px;
+    line-height: 36px;
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+    small {
+      font-size: 30.5px;
+    }
+  }
 }
-
-.links {
-  padding-top: 15px;
+.main-image {
+  width: 100%;
 }
 </style>
