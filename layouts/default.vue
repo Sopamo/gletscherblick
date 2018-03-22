@@ -30,6 +30,15 @@ html {
   background: #f5e2c8;
 }
 
+h2, h3 {
+  font-family: 'Kalam', cursive;
+  color: #41392e;
+}
+
+h2 {
+  font-size: 36px;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
@@ -37,7 +46,7 @@ html {
 
 .float-left {
   float: left;
-  margin-right: 10px;
+  margin-right: 20px;
   margin-bottom: 10px;
 }
 
@@ -48,11 +57,20 @@ img.albumify {
   box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
 }
 
+.text-center {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
 .container {
   margin: 20px auto;
   width: 100%;
   padding: 0 20px;
   max-width: 1000px;
+  clear: both;
 
   &.max-width {
     margin: 0;
@@ -66,7 +84,7 @@ img.albumify {
 }
 
 .main-nav {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 20px;
 
