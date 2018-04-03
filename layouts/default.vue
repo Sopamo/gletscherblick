@@ -3,16 +3,41 @@
     <nuxt/>
     <nav class="main-nav">
       <router-link to="/">
-        <img src="../assets/nav-images/frontpage.jpg">
+        <img src="../assets/nav-images/frontpage.jpg" alt="Logo der Pension Gletscherblick">
         <span>
           Startseite
         </span>
       </router-link>
-      <router-link to="/">Zimmer</router-link>
-      <router-link to="/">Preise</router-link>
-      <router-link to="/">Umgebung</router-link>
-      <router-link to="/">Aktivitäten</router-link>
-      <router-link to="/">Über Uns</router-link>
+      <router-link to="/zimmer">
+        <img src="../assets/nav-images/zimmer.jpg" alt="Die Zimmer von der Pension Gletscherblick">
+        <span>
+          Zimmer
+        </span>
+      </router-link>
+      <router-link to="/umgebung">
+        <img src="../assets/nav-images/umgebung.jpg" alt="Die Umgebung von Heiligenblut">
+        <span>
+          Umgebung
+        </span>
+      </router-link>
+      <router-link to="/skifahren">
+        <img src="../assets/nav-images/skifahren.jpg" alt="Skifahren im Skigebiet Großglockner">
+        <span>
+          Skifahren
+        </span>
+      </router-link>
+      <router-link to="/aktivitaeten">
+        <img src="../assets/nav-images/aktivitaeten.jpg" alt="Aktivitäten Rund um Heiligenblut">
+        <span>
+          Aktivitäten
+        </span>
+      </router-link>
+      <router-link to="/ueber-uns">
+        <img src="../assets/nav-images/ueber-uns.jpg" alt="Maria und Martin">
+        <span>
+          Über Uns
+        </span>
+      </router-link>
     </nav>
   </div>
 </template>
@@ -94,7 +119,7 @@ h2 {
     color: #754b18;
     text-align: center;
     text-decoration: none;
-    padding: 10px 10px;
+    padding: 10px 10px 5px 10px;
     margin: 10px;
     font-size: 18px;
     border-radius: 3px;
@@ -105,6 +130,8 @@ h2 {
 
     img {
       display: block;
+      width: 80px;
+      margin: 0 auto 5px auto;
     }
 
     &:nth-of-type(1) {
