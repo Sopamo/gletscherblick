@@ -39,10 +39,24 @@
         </span>
       </router-link>
     </nav>
+    <Hamburger />
   </div>
 </template>
 
+<script>
+  import Hamburger from '../components/Hamburger'
+
+  export default {
+    components: {
+      Hamburger
+    }
+  }
+</script>
+
 <style lang="scss">
+@import '../assets/scss/navigation';
+@import '../assets/scss/hamburger';
+
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
@@ -69,10 +83,18 @@ h2 {
   margin: 0;
 }
 
+ul {
+  margin-top: 5px;
+}
+
 .float-left {
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
 }
 
 img.albumify {
@@ -108,59 +130,94 @@ h2 {
   margin-top: 80px;
 }
 
-.main-nav {
-  position: absolute;
-  top: 0;
-  right: 20px;
+.main-image-wrapper {
+  width: 100%;
+  height: 700px;
+  max-height: 90vh;
+  overflow: hidden;
+  position: relative;
 
-  a {
-    display: inline-block;
-    background: white;
-    color: #754b18;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px 10px 5px 10px;
-    margin: 10px;
-    font-size: 18px;
-    border-radius: 3px;
-    border: 1px solid #754b18;
-    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
-    transition: box-shadow 0.1s ease-in, transform 0.1s ease-in;
-    will-change: box-shadow, transform;
+  h1 {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: white;
+    font-size: 56px;
+    line-height: 36px;
 
-    img {
-      display: block;
-      width: 80px;
-      margin: 0 auto 5px auto;
+    small {
+      font-size: 30.5px;
+    }
+  }
+}
+.main-image {
+  width: 100%;
+}
+.two-part {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+
+  .part {
+    flex: 1;
+    width: 50%;
+
+    &:first-child {
+      margin-right: 10px;
+    }
+    &:last-child {
+      margin-left: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .two-part {
+    padding: 0 20px;
+
+    .part {
+      width: 100%;
+      margin: 0;
+      flex: none;
+
+      &:first-child {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .container {
+    &.large-up {
+      margin-top: 20px;
     }
 
-    &:nth-of-type(1) {
-      transform: rotateZ(-3deg);
+    img.albumify {
+      width: 100%;
+      margin-bottom: 20px;
+      margin-right: 0;
     }
+  }
 
-    &:nth-of-type(2) {
-      transform: rotateZ(1deg);
-    }
+  .main-image-wrapper {
+    height: 30vh;
 
-    &:nth-of-type(3) {
-      transform: rotateZ(-2deg);
-    }
+    h1 {
+      top: 40px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      margin: 0;
+      font-size: 36px;
+      line-height: 36px;
 
-    &:nth-of-type(4) {
-      transform: rotateZ(2deg);
-    }
+      br {
+        display: none;
+      }
 
-    &:nth-of-type(5) {
-      transform: rotateZ(-3deg);
-    }
-
-    &:nth-of-type(6) {
-      transform: rotateZ(-1deg);
-    }
-
-    &:hover {
-      box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -7px rgba(0,0,0,0.2);
-      transform: rotateZ(0) translateY(-2px);
+      small {
+        display: block;
+        font-size: 24px;
+      }
     }
   }
 }

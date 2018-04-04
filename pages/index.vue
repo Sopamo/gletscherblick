@@ -2,7 +2,7 @@
 <div>
   <div class="container max-width">
     <div class="main-image-wrapper">
-      <img src="../assets/frontpage.jpg" class="main-image">
+      <img src="../assets/intros/pension-gletscherblick.jpg" class="main-image">
       <h1 class="intro-text">
         Herzlich Willkommen<br>
         <br>
@@ -49,29 +49,3 @@
 export default {
 }
 </script>
-
-<style scoped lang="scss">
-.main-image-wrapper {
-  width: 100%;
-  height: 700px;
-  max-height: 90vh;
-  overflow: hidden;
-  position: relative;
-
-  h1 {
-    position: absolute;
-    top: 200px;
-    left: 200px;
-    color: white;
-    font-size: 56px;
-    line-height: 36px;
-
-    small {
-      font-size: 30.5px;
-    }
-  }
-}
-.main-image {
-  width: 100%;
-}
-</style>
