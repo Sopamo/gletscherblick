@@ -102,6 +102,10 @@ h2 {
   margin-bottom: 20px;
 }
 
+.tiny-up {
+  margin-top: 10px;
+}
+
 .small-up {
   margin-top: 20px;
 }
@@ -135,9 +139,11 @@ h2 {
     }
   }
 }
+
 .main-image {
   width: 100%;
 }
+
 .two-part {
   display: flex;
   padding: 0;
@@ -153,6 +159,16 @@ h2 {
     &:last-child {
       margin-left: 10px;
     }
+  }
+}
+
+footer {
+  background: #d8c7b1;
+  margin-top: 40px;
+
+  .container {
+    margin: 0 auto;
+    padding: 20px;
   }
 }
 
@@ -185,6 +201,7 @@ h2 {
 
   .main-image-wrapper {
     height: 30vh;
+    min-height: 200px;
 
     h1 {
       top: 40px;

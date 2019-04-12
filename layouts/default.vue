@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt />
+    <nuxt class="clearfix" />
     <nav class="main-nav">
       <router-link to="/">
         <img src="../assets/nav-images/frontpage.jpg" alt="Logo der Pension Gletscherblick" />
@@ -40,6 +40,14 @@
       </router-link>
     </nav>
     <Hamburger />
+    <footer>
+      <div class="container">
+        Familienpension Gletscherblick |
+        <router-link to="/impressum">
+          Impressum
+        </router-link>
+      </div>
+    </footer>
   </div>
 </template>
 

@@ -43,7 +43,14 @@
       Mittlerweile in zweiter Generation führen nun Maria und Martin den "Gletscherblick".<br />
       Im Winter sind wir für Familien und Gruppen die im schneesicheren Skigebiet Grossglockner ihren Urlaub oder Skifreizeit verbringen da.<br />
       <br />
-      In den wärmeren Monaten lassen sich von Heiligenblut aus wunderbare Wandertouren unternehmen <strong>Links einfügen</strong> oder die Sehenswürdigkeiten <strong>Links einfügen</strong> in der Umgebung entdecken.
+      In den wärmeren Monaten lassen sich von Heiligenblut aus <a href="https://www.heiligenblut.at/de/erleben/sommer/wandern-outdoor.html" target="_blank" rel="nofollow">wunderbare Wandertouren</a> unternehmen oder die
+      <a href="https://www.heiligenblut.at/de/heiligenblut/best-of-heiligenblut.html" target="_blank" rel="nofollow">Sehenswürdigkeiten</a> in der Umgebung entdecken.<br />
+      <br />
+      Hier gelangen Sie direkt zur Buchung:<br />
+      <router-link class="button tiny-up" to="/buchung">Zur Buchung / Kontakt</router-link><br />
+      <br />
+      Infos zu unserer Pension und den Zimmern gibt es hier:<br />
+      <router-link class="button tiny-up" to="/zimmer">Zimmer &amp; Ausstattung</router-link>
     </section>
   </div>
 </template>
