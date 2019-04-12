@@ -16,9 +16,7 @@ class ShapeOverlays {
     const range = 4 * Math.random() + 6
     for (let i = 0; i < this.numPoints; i++) {
       const radian = (i / (this.numPoints - 1)) * Math.PI
-      this.delayPointsArray[i] =
-        ((Math.sin(-radian) + Math.sin(-radian * range) + 2) / 4) *
-        this.delayPointsMax
+      this.delayPointsArray[i] = ((Math.sin(-radian) + Math.sin(-radian * range) + 2) / 4) * this.delayPointsMax
     }
     if (this.isOpened === false) {
       this.open()
@@ -44,13 +42,7 @@ class ShapeOverlays {
   updatePath(time) {
     const points = []
     for (let i = 0; i < this.numPoints + 1; i++) {
-      points[i] =
-        this.cubicInOut(
-          Math.min(
-            Math.max(time - this.delayPointsArray[i], 0) / this.duration,
-            1
-          )
-        ) * 100
+      points[i] = this.cubicInOut(Math.min(Math.max(time - this.delayPointsArray[i], 0) / this.duration, 1)) * 100
     }
 
     let str = ''
@@ -58,9 +50,7 @@ class ShapeOverlays {
     for (let i = 0; i < this.numPoints - 1; i++) {
       const p = ((i + 1) / (this.numPoints - 1)) * 100
       const cp = p - ((1 / (this.numPoints - 1)) * 100) / 2
-      str += `C ${cp} ${points[i]} ${cp} ${points[i + 1]} ${p} ${
-        points[i + 1]
-      } `
+      str += `C ${cp} ${points[i]} ${cp} ${points[i + 1]} ${p} ${points[i + 1]} `
     }
     str += 'V 0 H 0'
     return str
@@ -68,42 +58,17 @@ class ShapeOverlays {
   render() {
     if (this.isOpened) {
       for (let i = 0; i < this.path.length; i++) {
-        this.path[i].setAttribute(
-          'd',
-          this.updatePath(Date.now() - (this.timeStart + this.delayPerPath * i))
-        )
-        if (i === 0) {
-          // eslint-disable-next-line no-console
-          console.log(Date.now() - (this.timeStart + this.delayPerPath * i))
-        }
+        this.path[i].setAttribute('d', this.updatePath(Date.now() - (this.timeStart + this.delayPerPath * i)))
       }
     } else {
       for (let i = 0; i < this.path.length; i++) {
-        this.path[i].setAttribute(
-          'd',
-          this.updatePath(
-            this.duration -
-              (Date.now() - (this.timeStart + this.delayPerPath * i))
-          )
-        )
-        if (i === 0) {
-          // eslint-disable-next-line no-console
-          console.log(
-            Date.now() -
-              (this.timeStart + this.delayPerPath * (this.path.length - i - 1))
-          )
-        }
+        this.path[i].setAttribute('d', this.updatePath(this.duration - (Date.now() - (this.timeStart + this.delayPerPath * i))))
       }
     }
   }
   renderLoop() {
     this.render()
-    if (
-      Date.now() - this.timeStart <
-      this.duration +
-        this.delayPerPath * (this.path.length - 1) +
-        this.delayPointsMax
-    ) {
+    if (Date.now() - this.timeStart < this.duration + this.delayPerPath * (this.path.length - 1) + this.delayPointsMax) {
       requestAnimationFrame(() => {
         this.renderLoop()
       })

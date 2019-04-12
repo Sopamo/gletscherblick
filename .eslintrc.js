@@ -17,7 +17,15 @@ module.exports = {
   plugins: [
     'prettier'
   ],
+  globals: {
+    '$nuxt': true,
+  },
   // add your custom rules here
   rules: {
+    'comma-dangle': [
+      'error',
+      'always-multiline',
+    ],
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
   }
 }
