@@ -1,7 +1,7 @@
 <template>
   <div>
     <nuxt class="clearfix" />
-    <nav class="main-nav">
+    <nav class="main-nav" :class="{ 'is-scrolled-down': isScrolledDown }">
       <router-link to="/">
         <img src="../assets/nav-images/frontpage.jpg" alt="Logo der Pension Gletscherblick" />
         <span>
@@ -32,10 +32,10 @@
           Skifahren
         </span>
       </router-link>
-      <router-link to="/ueber-uns">
+      <router-link to="/kontakt">
         <img src="../assets/nav-images/ueber-uns.jpg" alt="Maria und Martin" />
         <span>
-          Über Uns
+          Kontakt
         </span>
       </router-link>
     </nav>
@@ -57,6 +57,41 @@ import Hamburger from '../components/Hamburger'
 export default {
   components: {
     Hamburger,
+  },
+  data() {
+    return {
+      isScrolledDown: false,
+    }
+  },
+  mounted() {
+    if (window.innerWidth > 999) {
+      this.registerScrollHandler()
+    }
+  },
+  methods: {
+    registerScrollHandler() {
+      let passiveIfSupported = false
+
+      try {
+        window.addEventListener(
+          'test',
+          null,
+          Object.defineProperty({}, 'passive', {
+            get: function() {
+              passiveIfSupported = { passive: true }
+            },
+          })
+        )
+      } catch (err) {}
+
+      window.addEventListener(
+        'scroll',
+        event => {
+          this.isScrolledDown = window.scrollY > 20
+        },
+        passiveIfSupported
+      )
+    },
   },
 }
 </script>

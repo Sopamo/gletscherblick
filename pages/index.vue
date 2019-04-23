@@ -4,12 +4,11 @@
       <div class="main-image-wrapper">
         <img src="../assets/intros/pension-gletscherblick.jpg" class="main-image" />
         <h1 class="intro-text">
-          Herzlich Willkommen<br />
-          <br />
-          <small
-            >bei der Familienpension Gletscherblick<br />
-            in Heiligenblut</small
-          >
+          <span class="main">
+            Familienpension<br />
+            Gletscherblick<br />
+          </span>
+          <small>Herzlich willkommen in Heiligenblut</small>
         </h1>
       </div>
     </div>

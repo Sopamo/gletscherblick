@@ -1,5 +1,5 @@
 .main-nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 20px;
 
@@ -110,6 +110,42 @@
     &.is-closing {
       a {
         transition-delay: 0s !important;
+      }
+    }
+  }
+}
+
+
+
+@media screen and (min-width: 1000px) {
+  .main-nav {
+    left: 0;
+    right: 0;
+    padding-right: 20px;
+    background: transparent;
+    background: linear-gradient(180deg, rgba(0,0,0,0.33) 0%, rgba(0,0,0,0) 100%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position-y: -150px;
+    transition: background-position ease-in-out .1s;
+    text-align: right;
+
+    a {
+      transition: min-height ease-in-out .2s;
+
+      img {
+        transition: width ease-in-out .2s;
+      }
+    }
+
+    &.is-scrolled-down {
+      background-position-y: 0;
+      a {
+        min-height: 95px;
+
+        img {
+          width: 50px;
+        }
       }
     }
   }
