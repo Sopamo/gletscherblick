@@ -8,16 +8,17 @@
           Startseite
         </span>
       </router-link>
-      <router-link to="/buchung">
-        <img src="../assets/nav-images/aktivitaeten.jpg" alt="Pension Gletscherblick buchen" />
+      <router-link to="/pension">
+        <img src="../assets/nav-images/aktivitaeten.jpg" alt="Pension Gletscherblick" />
         <span>
-          Buchung
+          Pension
         </span>
       </router-link>
       <router-link to="/zimmer">
         <img src="../assets/nav-images/zimmer.jpg" alt="Die Zimmer von der Pension Gletscherblick" />
         <span>
-          Zimmer
+          Zimmer & <br>
+          Buchung
         </span>
       </router-link>
       <router-link to="/umgebung">

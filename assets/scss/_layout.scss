@@ -120,7 +120,7 @@ h2 {
 
 .main-image-wrapper {
   width: 100%;
-  height: 700px;
+  height: 450px;
   max-height: 90vh;
   overflow: hidden;
   position: relative;
@@ -146,6 +146,10 @@ h2 {
 
 .main-image {
   width: 100%;
+
+  @media screen and (max-width: 600px) {
+    height: 400px;
+  }
 }
 
 .two-part {
