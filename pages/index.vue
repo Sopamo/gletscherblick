@@ -5,7 +5,7 @@
         <picture>
           <source :srcSet="require('~/assets/intros/pension-gletscherblick.jpg?webp')" type="image/webp" />
           <source :srcSet="require('~/assets/intros/pension-gletscherblick.jpg')" type="image/jpeg" />
-          <img :src="require('~/assets/intros/pension-gletscherblick.jpg')" />
+          <img class="main-image -center" :src="require('~/assets/intros/pension-gletscherblick.jpg')" />
         </picture>
         <h1 class="intro-text">
           <span class="main">
