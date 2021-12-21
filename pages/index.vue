@@ -2,7 +2,7 @@
   <div>
     <div class="container max-width">
       <div class="main-image-wrapper">
-        <img src="../assets/intros/pension-gletscherblick.jpg" class="main-image" />
+        <img src="../assets/intros/pension-gletscherblick.jpg" class="main-image -center" />
         <h1 class="intro-text">
           <span class="main">
             Familienpension<br />

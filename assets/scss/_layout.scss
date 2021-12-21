@@ -214,6 +214,13 @@ h2 {
 
 .main-image {
   width: 100%;
+  object-fit: cover;
+  object-position: top;
+  height: 450px;
+
+  &.-center {
+    object-position: center;
+  }
 
   @media screen and (max-width: 600px) {
     height: 400px;
