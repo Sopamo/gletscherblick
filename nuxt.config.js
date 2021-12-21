@@ -17,6 +17,12 @@ export default {
    */
   loading: { color: '#fff' },
 
+
+  optimizedImages: {
+    optimizeImages: true,
+    defaultImageLoader: 'responsive-loader',
+  },
+
   /*
    ** Global CSS
    */
@@ -31,6 +37,10 @@ export default {
    ** Nuxt.js modules
    */
   modules: [],
+
+  buildModules: [
+    '@aceforth/nuxt-optimized-images',
+  ],
 
   /*
    ** Build configuration

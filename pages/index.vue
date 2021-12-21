@@ -2,7 +2,11 @@
   <div>
     <div class="container max-width">
       <div class="main-image-wrapper">
-        <img src="../assets/intros/pension-gletscherblick.jpg" class="main-image -center" />
+        <picture>
+          <source :srcSet="require('~/assets/intros/pension-gletscherblick.jpg?webp')" type="image/webp" />
+          <source :srcSet="require('~/assets/intros/pension-gletscherblick.jpg')" type="image/jpeg" />
+          <img :src="require('~/assets/intros/pension-gletscherblick.jpg')" />
+        </picture>
         <h1 class="intro-text">
           <span class="main">
             Familienpension<br />
