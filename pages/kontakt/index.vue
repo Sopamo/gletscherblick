@@ -16,7 +16,7 @@
       <div class="clearfix">
         <div class="albumify float-left">
           <a ref="nofollow" href="https://goo.gl/maps/KtykJzCAm692" target="_blank">
-            <img src="https://maps.googleapis.com/maps/api/staticmap?center=Heiligenblut,Oesterreich&zoom=7&size=490x300&maptype=roadmap&markers=color:blue%7C47.039818,12.842507&key=AIzaSyBF9nEav_A7rtDn2r5TolxgP_Qze8b95BY&language=de" />
+            <img src="https://maps.googleapis.com/maps/api/staticmap?center=Heiligenblut,Oesterreich&zoom=7&size=490x300&maptype=roadmap&markers=color:blue%7C47.039818,12.842507&key=AIzaSyCcQlx3xTe3bkpMonTa_VbHayxPgMCPIjw&language=de" />
           </a>
         </div>
         <p class="small-down">
