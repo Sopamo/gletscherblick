@@ -85,7 +85,7 @@
         Ab 12 -15 Jahre 50 % Ermäßigung.
       </p>
       <br>
-      <router-link class="button" to="/buchung">Zur Buchung / Kontakt</router-link>
+      <router-link class="button" to="/buchung">Zur Buchung</router-link>
     </section>
 
     <section class="container large-up">

@@ -2,14 +2,13 @@
 	display: none;
 	width: 64px;
 	height: 64px;
-	position: relative;
+	position: fixed;
 	cursor: pointer;
-	position: absolute;
 	top: 10px;
 	right: 10px;
 	z-index: 110;
 	border-radius: 50%;
-	background-color: #3369ff;
+	background-color: #41392e;
 	pointer-events: auto;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -245,6 +244,7 @@
 
 .shape-overlays.is-opened {
 	pointer-events: auto;
+  z-index: 5;
 }
 
 .shape-overlays__path:nth-of-type(1) {

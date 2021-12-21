@@ -8,10 +8,9 @@
   clear: both;
 }
 
-
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
   font-size: 18px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -24,7 +23,7 @@ html {
 
 h2,
 h3 {
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   color: #41392e;
 }
 
@@ -37,6 +36,50 @@ h2 {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+.container a:not(.button) {
+  color: #41392e;
+  display: inline;
+  position: relative;
+  text-decoration: none;
+  z-index: 2;
+  &:hover {
+    border-bottom-color: transparent;
+    color: #41392e;
+    &:before {
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200%25' height='100%25'%3E%3Cdefs%3E%3Cstyle%3E .wave%7B animation:wave 1s ease-in-out infinite alternate; animation-delay:-0.25s; stroke:%2341392e; stroke-width:2; stroke-linecap:square; %7D @keyframes wave%7B to%7B d:path('M 0 40 Q 20 42.5 40 40 Q 60 37.5 80 40'); %7D %7D %3C/style%3E%3C/defs%3E%3Cpattern id='wavePattern' x='0' y='0' width='80' height='80' patternUnits='userSpaceOnUse'%3E%3Cpath fill='none' class='wave' d='M 0 40 Q 20 37.5 40 40 Q 60 42.5 80 40' /%3E%3C/pattern%3E%3Crect x='0' y='0' width='100%25' height='100%25' fill='url(%23wavePattern)'%3E%3C/rect%3E%3C/svg%3E")
+        0px 50% / 80px 80px repeat-x;
+      animation: waving 3s linear infinite;
+      @keyframes waving {
+        to {
+          background-position: 80px 50%, 160px 50%;
+        }
+      }
+    }
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    left: 0;
+    bottom: -20px;
+    z-index: -1;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200%25' height='100%25'%3E%3Cdefs%3E%3Cstyle%3E .wave%7B stroke:%2341392e; stroke-width:2; stroke-linecap:square; %7D %3C/style%3E%3C/defs%3E%3Cpattern id='wavePattern' x='0' y='0' width='80' height='80' patternUnits='userSpaceOnUse'%3E%3Cpath fill='none' class='wave' d='M 0 40 Q 20 40 40 40 Q 60 40 80 40' /%3E%3C/pattern%3E%3Crect x='0' y='0' width='100%25' height='100%25' fill='url(%23wavePattern)'%3E%3C/rect%3E%3C/svg%3E")
+      0px 50% / 80px 80px repeat-x;
+  }
+}
+
+.info-container {
+  margin-bottom: 20px;
+  .content {
+    font-size: 24px;
+  }
+  .label {
+    margin-top: 5px;
+    opacity: 0.8;
+  }
 }
 
 ul {
@@ -63,8 +106,7 @@ img {
   border-radius: 2px;
   border: 4px solid #fff;
   transform: rotateZ(-1deg);
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
-    0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
 
   &.-v2 {
     transform: rotateZ(0deg);
@@ -156,17 +198,11 @@ h2 {
   display: flex;
   padding: 0;
   flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
 
-  .part {
+  & > * {
     flex: 1;
-    width: 50%;
-
-    &:first-child {
-      margin-right: 10px;
-    }
-    &:last-child {
-      margin-left: 10px;
-    }
   }
 }
 
@@ -178,6 +214,10 @@ footer {
     margin: 0 auto;
     padding: 20px;
   }
+}
+
+.igui_view_start .igui_icon_play {
+  font-size: 120px !important;
 }
 
 @media screen and (max-width: 999px) {

@@ -34,15 +34,3 @@
 export default {}
 </script>
 
-<style lang="scss">
-  .info-container {
-    margin-bottom: 20px;
-    .content {
-      font-size: 24px;
-    }
-    .label {
-      opacity: 0.8;
-    }
-  }
-
-</style>

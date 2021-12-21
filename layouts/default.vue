@@ -9,7 +9,7 @@
         </span>
       </router-link>
       <router-link to="/pension">
-        <img src="../assets/nav-images/aktivitaeten.jpg" alt="Pension Gletscherblick" />
+        <img src="../assets/nav-images/pension.jpg" alt="Pension Gletscherblick" />
         <span>
           Pension
         </span>
@@ -25,12 +25,6 @@
         <img src="../assets/nav-images/umgebung.jpg" alt="Die Umgebung von Heiligenblut" />
         <span>
           Umgebung
-        </span>
-      </router-link>
-      <router-link to="/skifahren">
-        <img src="../assets/nav-images/skifahren.jpg" alt="Skifahren im Skigebiet Großglockner" />
-        <span>
-          Skifahren
         </span>
       </router-link>
       <router-link to="/kontakt">

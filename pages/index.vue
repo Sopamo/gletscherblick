@@ -15,16 +15,17 @@
     <section class="container clearfix large-up">
       <h2 class="text-center">Über uns</h2>
       <img src="../assets/content/gletscherblick-dunkel.jpg" width="500" alt="Blick von der Sonnenterrasse nach Heiligenblut" class="albumify float-left" />
-      Als Familienpension Gletscherblick haben wir uns auf Urlaub mit Kindern spezialisiert.<br>
+      Als Familienpension Gletscherblick haben wir uns auf Urlaub mit Kindern spezialisiert.<br />
 
-      Dazu gehören:<br>
+      Dazu gehören:<br />
       Familienzimmer, ein großes Gelände mit Spielplatz zum Toben, ein Streichelzoo und unkomplizierte kindergerechte Änderungen beim abendlichen Menü.<br />
-      <br>
+      <br />
       Bei uns übernachten Sie wahlweise mit Halbpension oder Frühstück.<br />
-<br />
+      <br />
     </section>
-    <section class="container ">
-      Eine weitere Möglichkeit den herrlichen Blick von unserer großen Sonnenterrasse auf das Glocknermassiv zu genießen, ist ein Besuch bei uns zur Kaffeezeit am Nachmittag. Wenn es bei uns in der gesamten Gaststube bis hinaus auf die Terrasse nach frischem, hausgemachten Kuchen duftet!<br />
+    <section class="container">
+      Eine weitere Möglichkeit den herrlichen Blick von unserer großen Sonnenterrasse auf das Glocknermassiv zu genießen, ist ein Besuch bei uns zur Kaffeezeit am Nachmittag. Wenn es bei uns in der gesamten Gaststube bis hinaus auf die
+      Terrasse nach frischem, hausgemachten Kuchen duftet!<br />
       Wir freuen uns schon darauf, Sie mit unserer Gastfreundschaft verwöhnen zu dürfen!<br /><br />
       Herzlichst<br />
       Ihre Familie Granögger<br />
@@ -37,31 +38,80 @@
           <Rating />
         </div>
         <div>
-          <a class="button" href="https://www.google.com/maps/place/Familienpension+Gletscherblick/@47.0347035,12.8496259,17z/data=!4m8!3m7!1s0x47776aaa2a312715:0x21c8ba4e1ac3d646!5m2!4m1!1i2!8m2!3d47.0346999!4d12.8518146" target="_blank">Google Maps öffnen</a>
+          <a class="button" href="https://www.google.com/maps/place/Familienpension+Gletscherblick/@47.0347035,12.8496259,17z/data=!4m8!3m7!1s0x47776aaa2a312715:0x21c8ba4e1ac3d646!5m2!4m1!1i2!8m2!3d47.0346999!4d12.8518146" target="_blank"
+            >Alle Bewertungen</a
+          >
         </div>
       </div>
       <div class="quotes">
         <Quote>
-          Urlaub bei Freunden im Idyll der Großglockner Bergwelt. Man ist als Gast fast Teil der Familie. Schöne Zimmer, tolle Aussicht, tolles Essen mit Produkten vom eigenen Hof und viele Annehmlichkeiten mehr runden das Angebot ab. Auf jeden Fall einen Tipp wert und sei es nur um die Küche zu genießen.
+          Urlaub bei Freunden im Idyll der Großglockner Bergwelt. Man ist als Gast fast Teil der Familie. Schöne Zimmer, tolle Aussicht, tolles Essen mit Produkten vom eigenen Hof und viele Annehmlichkeiten mehr runden das Angebot ab. Auf
+          jeden Fall einen Tipp wert und sei es nur um die Küche zu genießen.
         </Quote>
+        <Quote> Waren zwar nur zum Kaffee hier. Aber total nette Inhaber, und echt gute hausgemachte Mehlspeisen. Für die Kinder gibt es einen Spielplatz und Streichelzoo. </Quote>
         <Quote>
-          Waren zwar nur zum Kaffee hier. Aber total nette Inhaber, und echt gute hausgemachte Mehlspeisen. Für die Kinder gibt es einen Spielplatz und Streichelzoo.
-        </Quote>
-        <Quote>
-          Wegen Spielplatz mit Streichelzoo sind wir gekommen, ein Traum für Kinder!!! Kuchen und Kaffee perfekt, mit einem tollen Ausblick und ein freundlich familiärer Service der seinesgleichen sucht! Ruhige Lage, kein Durchzugsverkehr,  einfach zum Entspannen! Jederzeit wieder!!!
+          Wegen Spielplatz mit Streichelzoo sind wir gekommen, ein Traum für Kinder!!! Kuchen und Kaffee perfekt, mit einem tollen Ausblick und ein freundlich familiärer Service der seinesgleichen sucht! Ruhige Lage, kein Durchzugsverkehr,
+          einfach zum Entspannen! Jederzeit wieder!!!
         </Quote>
       </div>
     </section>
 
     <section class="container large-up">
       <h2 class="text-center">Rund um Heiligenblut</h2>
-        <a href="https://www.heiligenblut.at/" target="_blank">Heiligenblut.at</a><br>
-        <a href="https://hohetauern.at/de/" target="_blank">Nationalpark Hohe Tauern</a><br>
-        <a href="https://www.bergfex.at/skiheiligenblut/wetter/" target="_blank">Wetter</a><br>
-        <a href="https://www.heiligenblut.at/de/live-webcams-und-mehr.html/" target="_blank">Webcam</a><br>
-        <a href="https://www.grossglockner.at/gg/de/index" target="_blank">Glocknerstraße</a><br>
-        <a href="https://skisport.com/Grossglockner/de" target="_blank">Bergbahnen</a><br>
-        <a href="https://www.heiligenblut.at/de/erleben/winter/skischule-skikurse.html/" target="_blank">Skischule</a><br>
+      <div class="two-part">
+        <div>
+          <div class="info-container">
+            <div class="content">
+              <a href="https://www.heiligenblut.at/" target="_blank">Heiligenblut.at</a>
+            </div>
+            <div class="label">Die offizielle Heiligenblut Website</div>
+          </div>
+
+          <div class="info-container">
+            <div class="content">
+              <a href="https://hohetauern.at/de/" target="_blank">Nationalpark Hohe Tauern</a>
+            </div>
+            <div class="label">Alle Infos rund um den Nationalpark</div>
+          </div>
+
+          <div class="info-container">
+            <div class="content">
+              <a href="https://skisport.com/Grossglockner/de" target="_blank">Bergbahnen</a>
+            </div>
+            <div class="label">Tickets für die Bergbahnen kaufen</div>
+          </div>
+
+          <div class="info-container">
+            <div class="content">
+              <a href="https://www.heiligenblut.at/de/erleben/winter/skischule-skikurse.html/" target="_blank">Skischule</a>
+            </div>
+            <div class="label">Die Angebote der Skischulen</div>
+          </div>
+        </div>
+        <div>
+          <div class="info-container">
+            <div class="content">
+              <a href="https://www.bergfex.at/skiheiligenblut/wetter/" target="_blank">Wetter</a>
+            </div>
+            <div class="label">Die Wettervorhersage & Schneebericht</div>
+          </div>
+
+          <div class="info-container">
+            <div class="content">
+              <a href="https://www.heiligenblut.at/de/live-webcams-und-mehr.html/" target="_blank">Webcam</a>
+            </div>
+            <div class="label">Live Webcams von Heiligenblut & Umgebung</div>
+          </div>
+
+          <div class="info-container">
+            <div class="content">
+              <a href="https://www.grossglockner.at/gg/de/index" target="_blank">Glocknerstraße</a>
+            </div>
+            <div class="label">Informationen zur Glocknerstraße</div>
+          </div>
+          <br />
+        </div>
+      </div>
     </section>
 
     <section class="container clearfix large-up">
