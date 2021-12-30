@@ -96,7 +96,7 @@
     <section class="container large-up">
       <h2 class="text-center">Verpflegung</h2>
       <p>
-        Unsere Küche ist bodenständig und nachhaltig. Neben regionalen Zulieferern profitiert unsere Küche von den Erträgen unserer eigenen Tierhaltung und Landwirtschaft. Wir bemühen uns, den Geschmack aller zu treffen und nehmen selbstverständlich gerne Rücksicht auf Lebensmittelunverträglichkeiten. Daher gibt es auch immer Alternativen bei einer Intoleranz, wie zum Beispiel Laktose, Gluten oder Fructose.<br>
+        Unsere Küche ist bodenständig und nachhaltig. Auf Wunsch bieten wir auch ein vegetarisches Menü an. Neben regionalen Zulieferern profitiert unsere Küche von den Erträgen unserer eigenen Tierhaltung und Landwirtschaft. Wir bemühen uns, den Geschmack aller zu treffen und nehmen selbstverständlich gerne Rücksicht auf Lebensmittelunverträglichkeiten. Daher gibt es auch immer Alternativen bei einer Intoleranz, wie zum Beispiel Laktose, Gluten oder Fructose.<br>
         Teilen Sie uns diese einfach bei Ihrer Buchung mit.
       </p>
     </section>

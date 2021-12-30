@@ -76,7 +76,7 @@ export default {
     }
   },
   methods: {
-    loadVideo() {
+    async loadVideo() {
       const config = {
         sources: [
           {
@@ -88,11 +88,12 @@ export default {
           image: '/videos/anfahrt-vorschau.jpg',
         },
       }
-      lazyLoadScript('https://cdn.jsdelivr.net/npm/indigo-player/lib/indigo-player.js', 'main').then(() => {
-        this.player = window.IndigoPlayer.init(this.$refs.playerContainer, config)
-        this.player.on(window.IndigoPlayer.Events.STATE_READY, () => {
-          this.videoLoaded = true
-        })
+      import("indigo-player/lib/indigo-theme.css")
+      const IndigoPlayer = await import("indigo-player")
+
+      this.player = IndigoPlayer.init(this.$refs.playerContainer, config)
+      this.player.on(IndigoPlayer.Events.STATE_READY, () => {
+        this.videoLoaded = true
       })
     },
   },

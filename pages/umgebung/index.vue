@@ -32,7 +32,6 @@
           geeignet sind, können Familien kindgerechte Ausflüge unternehmen. Mittlere und anspruchsvolle Wanderwege sowie hochalpine Touren, teilweise mit bewirtschafteten Almhütten auf der Strecke, fordern erfahrene Wanderer heraus.
           Einheimische Bergführer*innen begleiten Sie dabei gerne mit ihren Erfahrungen.
         </p>
-        Link Heiligenblut
         <p class="small-down">Außerdem starten bzw. enden in Heiligenblut zwei traumhafte Wanderwege. Der Alpe Adria Trail und der Bergpilgerweg Hoch und Heilig.</p>
         <p class="small-down">
           Auf dem Alpe Adria Trail, der durch die Länder Österreich, Slowenien und Italien führt, können Sie auf 37 Etappen etwa 750 Kilometer zurücklegen.<br />
@@ -102,7 +101,7 @@
         <p><strong>Rodeln</strong></p>
         <p class="small-down">
           Rund um Heiligenblut gibt es verschiedene Möglichkeiten mit dem Schlitten die Hügel hinunter zu brausen. Ein Highlight ist unsere schöne Rodelbahn. Sie ist 1,1 km lang und abends sogar bis 23:00 Uhr beleuchtet. Schlitten stellen
-          wir Ihnen kostenlos zur Verfügung. Bilder, Link Heiligenblut
+          wir Ihnen kostenlos zur Verfügung.
         </p>
         <p><strong>Eislaufen</strong></p>
         <p class="small-down">
@@ -172,7 +171,7 @@ export default {
     }
   },
   methods: {
-    loadVideo() {
+    async loadVideo() {
       const config = {
         sources: [
           {
@@ -184,11 +183,12 @@ export default {
           image: '/videos/streichelzoo-vorschau.jpg',
         },
       }
-      lazyLoadScript('https://cdn.jsdelivr.net/npm/indigo-player/lib/indigo-player.js', 'main').then(() => {
-        this.player = window.IndigoPlayer.init(this.$refs.playerContainer, config)
-        this.player.on(window.IndigoPlayer.Events.STATE_READY, () => {
-          this.videoLoaded = true
-        })
+      import("indigo-player/lib/indigo-theme.css")
+      const IndigoPlayer = await import("indigo-player")
+
+      this.player = IndigoPlayer.init(this.$refs.playerContainer, config)
+      this.player.on(IndigoPlayer.Events.STATE_READY, () => {
+        this.videoLoaded = true
       })
     },
   },

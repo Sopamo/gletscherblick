@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
+    "indigo-player": "^1.5.1",
     "node-sass": "^4.11.0",
     "nuxt": "^2.4.0",
     "sass-loader": "^7.1.0"
