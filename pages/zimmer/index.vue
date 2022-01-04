@@ -7,7 +7,7 @@
           Komfortable Familienzimmer<br />
           <br />
           <small
-            >11 Zimmer in denen Sie sich <br />
+            >10 Zimmer in denen Sie sich <br />
             wie zu Hause fühlen</small
           >
         </h1>
@@ -42,7 +42,7 @@
       </div>
       <div class="part">
         <br />
-        Ausstattung der Kinderzimmer:
+        Ausstattung der Zimmer:
         <ul>
           <li>Separates Kinderzimmer</li>
           <li>Stock- Gitterbetten</li>
@@ -64,7 +64,6 @@
         Außerdem Verleih von:
         <ul>
           <li>Kinderwagen</li>
-          <li>Buggies</li>
           <li>Schlitten</li>
         </ul>
       </div>
@@ -86,8 +85,10 @@
       </p>
       <br />
       <p>
-        Kinder bis 11,99 Jahre gratis in einem Familienzimmer mit Erwachsenen.<br>
-        Ab 12 -15 Jahre 50 % Ermäßigung.
+        <strong>Kinderermäßigung:</strong><br />
+        Von 0-5 Jahre: <strong>GRATIS</strong><br />
+        Von 6-10 Jahre: <strong>50% Ermäßigung</strong><br />
+        Von 11-15 Jahre: <strong>30% Ermäßigung</strong>
       </p>
       <br>
       <router-link class="button" to="/buchung">Zur Buchung</router-link>
@@ -111,9 +112,7 @@
     <section class="container large-up">
       <h2 class="text-center">Abendessen</h2>
       <p>
-        Chef Martin, gelernter Koch, zaubert abends ein 3- Gänge Menü für Sie. Bestehend aus Suppe (täglich wechselnd), Hauptgang und Dessert.<br>
-        Kinder bis 12 Jahren essen bei uns bei Belegung mit Elternteil im Zimmer in der Halbpension kostenlos.
-
+        Chef Martin, gelernter Koch, zaubert abends ein 3- Gänge Menü für Sie. Bestehend aus Suppe, Hauptgang und Dessert.<br>
       </p>
     </section>
 

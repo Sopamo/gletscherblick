@@ -81,7 +81,7 @@ export default {
         sources: [
           {
             type: 'mp4',
-            src: '/videos/anfahrt.mp4',
+            src: '/videos/anfahrt-gletscherblick.mp4',
           },
         ],
         ui: {

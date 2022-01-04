@@ -121,7 +121,7 @@
       <div class="clearfix">
         <img class="albumify -v2 float-left" width="490" src="../../assets/content/winter-heiligenblut-gletscherblick.jpg" alt="Die Pension Gletscherblick im Winter" />
         <p>Im Winter ist alles tief verschneit. Schilifte bringen Sie bis auf fast 3000 m. Und dann kann der Spaß in Weiß ganz schön bunt sein!</p>
-        <p>Der Schibus bringt Ihre Schizwerge direkt vom Haus in die Kinderschischule und zurück. Mit dem Auto sind Sie außerdem innerhalb von 5 Minuten an der Talstation oder in 10 Minuten an der Mittelstation.</p>
+        <p>Mit dem Auto sind Sie innerhalb von 5 Minuten an der Talstation oder in 10 Minuten an der Mittelstation.</p>
       </div>
     </div>
 

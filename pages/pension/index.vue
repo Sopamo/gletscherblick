@@ -18,7 +18,7 @@
 
     <div class="container">
       <h2 class="text-center">Lage</h2>
-      Inmitten des Nationalparks Hohe Tauern, liegt unser Haus liegt allein auf einem Hügel oberhalb von Heiligenblut, knapp 10 Minuten zu Fuß vom Ortszentrum entfernt. Der ruhige Weg zu unserem Haus wird nur von Haus- bzw. Tagesgästen befahren. In unsere Pension bieten wir 10 Urlaubsfamilien Platz und garantieren Ihnen und Ihren Liebsten familiäre Betreuung von früh bis spät. Die Nutzung von Parkplatz, Streichelzoo und Spielplatz (im Sommer) sowie WLAN ist für alle Gäste kostenlos.
+      Inmitten des Nationalparks Hohe Tauern, liegt unser Haus allein auf einem Hügel oberhalb von Heiligenblut, knapp 10 Minuten zu Fuß vom Ortszentrum entfernt. Der ruhige Weg zu unserem Haus wird nur von Haus- bzw. Tagesgästen befahren. In unserer Pension bieten wir 10 Urlaubsfamilien Platz und garantieren Ihnen und Ihren Liebsten familiäre Betreuung von früh bis spät. Die Nutzung von Parkplatz, Streichelzoo und Spielplatz (im Sommer) sowie WLAN ist für alle Gäste kostenlos.
     </div>
 
     <div class="container">
@@ -39,7 +39,7 @@
         <p>Mit vollem Einsatz und mit eigener Hände Arbeit über viele Monate bauten Sepp und seine Gattin an ihrem Traum. Und im Sommer 1973 war es dann endlich soweit: Der "Gletscherblick" wurde eröffnet!</p>
       </div>
       <div class="clearfix">
-        <img class="albumify -v2 float-left" width="490" src="../../assets/content/gletscherblick-maria-und-martin.jpg" alt="Die jetzigen Betreiber, Maria und Martin vom Gletscherblick in Heiligenblut" />
+        <img class="albumify -v2 float-left" width="490" src="../../assets/content/gletscherblick-familie.jpg" alt="Die Familie Granögger" />
         <p>
           Mittlerweile wird der "Gletscherblick" nun schon in zweiter Generation geführt. Im Jahre 1991 übernahm Sohn Martin die Geschicke und gemeinsam mit seiner Frau Maria passte er den Betrieb behutsam an die neuen Zeiten an. Der Wunsch
           nach einem kindergerechten Zuhause für den eigenen Nachwuchs brachte dann auch die Idee, eine Familienpension einzurichten. Und so wachsen Nathalie, Victoria und Lucas nun gemeinsam mit vielen Spielkameraden auf, die in den Ferien
