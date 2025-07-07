@@ -73,15 +73,8 @@
       <h2 class="text-center">Preise</h2>
       <img src="../../assets/content/blick-nach-heiligenblut.jpg" width="500" alt="Blick von der Sonnenterrasse nach Heiligenblut" class="albumify float-left" />
       <p>
-        <strong>Nebensaison:</strong><br />
-        Übernachtung und Frühstück: <strong>55€</strong><br />
-        Halbpension: <strong>65€</strong>
-      </p>
-      <br />
-      <p>
-        <strong>Hauptsaison:</strong><br />
-        Übernachtung und Frühstück: <strong>75€</strong><br />
-        Halbpension: <strong>85€</strong>
+        Übernachtung mit Frühstück: <strong>68€ - 88€</strong> pro Person und Tag<br />
+        Aufpreis für die Halbpension: <strong>25€</strong> pro Person
       </p>
       <br />
       <p>
